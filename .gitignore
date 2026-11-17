@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary upload files
+temp_upload.png
+test_*.py
+inspect_*.py
+find_*.py
+check_*.py
+
+# Large raw dataset cache (reproducible download via make_data.py)
+data/mnist_raw/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

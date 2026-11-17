@@ -1,0 +1,7 @@
+import torch
+print("PyTorch version:", torch.__version__)
+print("CUDA is available:", torch.cuda.is_available())
+if torch.cuda.is_available():
+    print("Device name:", torch.cuda.get_device_name(0))
+else:
+    print("PyTorch was installed without CUDA support (CPU-only build) or CUDA version mismatch.")
